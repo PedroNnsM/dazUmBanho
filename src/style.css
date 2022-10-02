@@ -1,0 +1,30 @@
+:root {
+    --bg-primiry: #c5c5c5;
+    --bg-main-box: #575757;
+    
+    --ff-title: 'Poppins', sans-serif ;
+    --fw-title: 700 ;
+    
+    font-size: 62.5%;
+
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    font-size : 1.6rem;
+    font-family: var(--ff-title);
+    background-color: var(--bg-primiry)
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
